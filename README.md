@@ -14,4 +14,22 @@ Visualization of the collected data with the web page hosted in the ESP32:
 
 ![image](https://user-images.githubusercontent.com/20308796/185768137-be24fe47-a4ee-4b36-8247-a15a35b8b853.png)
 
-**TODO: Add build instructions** 
+## How to build the project
+**Dependencies:**
+- oxullo/MAX30100lib 1.2.1
+-	kontakt/MAX30100 1.0
+-	bblanchon/ArduinoJson 6.19.4
+-	me-no-dev/ESP Async WebServer 1.2.3
+-	mcxiaoke/ESPDateTime 1.0.4
+
+
+Clone the project:
+```bash
+$ git clone https://github.com/LaBatata101/oximeter-esp32-firmware
+```
+
+You can build the project and flash it to the ESP32 using the VSCode extension [PlatformIO](https://platformio.org/).
+
+Or using the [IDF Frontend](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/tools/idf-py.html).
+
+Or using the [Arduino IDE](https://www.arduino.cc/en/software/).
